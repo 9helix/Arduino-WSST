@@ -1,0 +1,7 @@
+https://docs.arduino.cc/learn/communication/wire  I2C CODES
+https://www.arduino.cc/en/Tutorial/LibraryExamples/MasterReader I2C SCHEMATIC
+https://iot-guider.com/arduino/serial-communication-between-two-arduino-boards/ SERIAL COM 2 ARDUINOS
+https://www.programmersought.com/article/76066329655/   SERIAL COM UNO-D1 MINI WEMOS
+https://randomnerdtutorials.com/esp-now-esp8266-nodemcu-arduino-ide/ WIFI COM FOR 2 D1 MINIS
+https://www.electronicwings.com/nodemcu/nodemcu-i2c-with-arduino-ide   I2C D1 MINI TO MEGA BUT CONNECT TO SDA&SCL PORTS, NO PARAMETERS IN WIRE BEGIN IN MASTER
+https://www.programmingelectronics.com/serial-read/    ADVANDCED SERIAL

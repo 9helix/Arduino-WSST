@@ -1,0 +1,6 @@
+22.8.2022. odustali od optocouplera zbog složenosti i upitne funkcionalnosti, no i dalje istražujemo druge mogućnosti bežične komunikacije radi sigurnosti sustava od udara munje
+23.8.2022. komunikacija između arduino una i d1 minija uspostavljena preko serial communicationa (rx, tx); ideja: preenesti serijskom komunikacijom signal s arduina na d1, wifijem signal onda prenesti na drugi d1, od njega serijskom kom. prenesti signal na drugi arduino i i2c protokolom prenesti signal na treći arduino (main board)
+24.8.2022. riješeno slanje slova:
+arduino uno->serial com->d1 mini->wifi->d1 mini->i2c->arduino mega
+izbačen nano koji bi primao signal serialom od d1 i i2com slao signal megi jer d1 može biti master u i2c
+26.8. sensor dht11(toplina i vlažnost)->uno->serial->d1->wifi->d1->i2c->mega
